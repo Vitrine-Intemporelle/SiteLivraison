@@ -1,0 +1,86 @@
+* {margin: 0; padding: 0;}
+
+html {position: relative;}
+
+
+
+
+		footer input[type="checkbox"] {cursor: pointer; opacity: 0; width: 50%; position: absolute; left: 0; z-index: 1;}
+		
+		.f-cmail:checked + label[for="f-hmail"], .f-cphone:checked + label[for="f-hphone"] {visibility: hidden; position: absolute;}
+		footer .f-cmail:checked + label[for="f-hmail"]:before {position: relative; left: 5px;visibility: visible; content: "intemporelle.talmont@gmail.com";}
+		footer .f-cphone:checked + label[for="f-hphone"]:before {position: relative; left: 5px; visibility: visible; content: "02 51 90 39 62";}
+
+footer
+{
+	position: absolute; left: 0; bottom: 0;
+	margin-top: 50px;
+	background-color: rgb(10, 20, 12);
+	width: 100%;
+	color: white;
+	font-size: 10pt;
+}
+
+	footer .f-main-content
+	{
+		display: flex;
+	}
+
+		footer .f-main-content .f-box
+		{
+			flex-basis: 50%;
+			padding: 12px 20px;
+		}
+		
+			footer .f-box .f-content
+			{
+				margin: 20px 0 0 0;
+				position: relative;
+			}
+			
+			footer .f-box .f-content:before
+			{
+				position: absolute;
+				content: '';
+				top: -15px;
+				height: 2px;
+				width: 100%;
+				background-color: rgb(50, 50, 50);
+			}
+			
+			footer .f-box .f-content:after
+			{
+				position: absolute;
+				left: 0;
+				content: '';
+				height: 2px;
+				width: 35%;
+				background-color: rgb(150, 150, 150);
+				top: -15px;
+			}		
+				
+				.f-hmap
+				{
+					frameborder: 0;
+					border: 0;
+					allowfullscreen:"";
+					aria-hidden: false;
+					tabindex: 0;
+					width: 50px; height: 50px;
+				}
+			
+			
+@media screen and (max-width: 850px)
+	{
+		footer
+		{
+			position: relative;
+		}
+		
+		.f-main-content
+		{
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+		
+	}
