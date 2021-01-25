@@ -1,0 +1,30 @@
+    @font-face {
+    font-family: 'Cavolini Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cavolini Regular'), url('cavolini/CAVOLINI.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Cavolini Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cavolini Italic'), url('cavolini/CAVOLINIITALIC.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Cavolini Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cavolini Bold'), url('cavolini/CAVOLINIBOLD.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Cavolini Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cavolini Bold Italic'), url('cavolini/CAVOLINIBOLDITALIC.woff') format('woff');
+    }

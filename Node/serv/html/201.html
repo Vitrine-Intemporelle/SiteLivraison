@@ -1,0 +1,117 @@
+<!DOCTYPE>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	
+	<title>Lingerie Jour</title>
+	<link rel ="stylesheet" href="../css/201.css">
+	<script src="../js/Zdefault.js"></script>
+</head>
+
+<body>
+
+<script src="../js/Zheader.js"></script>
+
+<!-- debut main -->
+<main>
+	<!-- debut accueil -->
+	<div id="lingerie_jour">
+	
+		<!-- title -->
+		<h1 class="title">Lingerie Jour</h1>
+
+<!-- debut carrousel -->
+<div class="container">
+
+  
+  <div class="mySlides">
+    <img  id = "myImg" src="../img/201/carrousel/antigel/logo_antigel.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <img id = "myImg2" src="../img/201/carrousel/antigel/sexy_resille.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <img id= "myImg3" src="../img/201/carrousel/antigel/graphique_canard.jpg" >
+  </div>
+    
+  <div class="mySlides">
+    <img id= "myImg4" src="../img/201/carrousel/antigel/foret_magique.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <img id= "myImg5" src="../img/201/carrousel/mariejo/logo_marie_jo.jpg" >
+  </div>
+    
+  <div class="mySlides">
+    <img id= "myImg6" src="../img/201/carrousel/mariejo/jane_black.jpg" >
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="../img/201/carrousel/antigel/logo_antigel.jpg" onclick="currentSlide(1)" alt="Antigel">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/201/carrousel/antigel/sexy_resille.jpg"  onclick="currentSlide(2)" alt="Sexy Resille">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/201/carrousel/antigel/graphique_canard.jpg"  onclick="currentSlide(3)" alt="Graphique Canard">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/201/carrousel/antigel/foret_magique.jpg"  onclick="currentSlide(4)" alt="Fôret Magique">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/201/carrousel/mariejo/logo_marie_jo.jpg"  onclick="currentSlide(5)" alt="Marie Jo">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="../img/201/carrousel/mariejo/jane_black.jpg"  onclick="currentSlide(6)" alt="Jane Black">
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img">
+  
+    <!-- Modal Caption (Image Text) -->
+    <div id="capture"></div>
+  </div>
+</div>
+<!-- end carrousel -->
+
+<script src="../js/201_carrousel.js" async></script>
+		
+		<!-- debut content -->
+		<div id="content">
+			<p class="text">
+			Découvrez une large gamme de soutien-gorge de toutes formes et de toutes couleurs
+			pour répondre à vos envies et à vos humeurs.
+			<br/>L'emboîtant, la corbeille, le sans armature,le spacer, ou le push up.
+			Variez les plaisirs au gré des saisons et de vos tenues!
+			</p>
+		</div>
+		<!-- end content -->
+		
+	</div>
+	<!-- end accueil -->
+
+</main>
+<!-- end main -->
+
+<script src="../js/Zfooter.js"></script>
+
+</body>
+</html>

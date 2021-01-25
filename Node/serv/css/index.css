@@ -1,0 +1,112 @@
+.accueil1
+{
+	padding: 30px 20% 0 20%;
+}
+
+.accueil2
+{
+	padding: 30px 20% 100px 20%;
+}
+
+	.title
+	{
+		text-align: center;
+		margin: 0 0 30px 0;
+	}
+	
+		.img_main
+		{
+			display: block;
+			margin: 0 auto;
+			
+			max-width: 500px;
+			width: 100%;
+			height: auto;
+		}
+			
+			#content
+			{
+				text-align: center;
+				padding: 10px 10px 70px 10px;
+			}
+			
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Cache les images par défaut */
+.mySlides {
+  display: none;
+}
+
+.imgslide {
+    box-shadow: 10px 10px 10px #808080b3;
+}
+
+/* Les boutons pour changer de slides */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position du bouton next */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Ajoute un fond noir quand on passe la souris dessus */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Les indicateurs de slides */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Animation de transition */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
